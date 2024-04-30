@@ -1,15 +1,47 @@
-section{
-    border: 1px solid red;
+body{
+    color: white;
 }
 
-.container{
-    border: 1px solid blue;
+#jumbotron img{
+    width: 250px;
+    height: 250px;
 }
 
-.row{
-    border: 1px solid green;
+.my_container{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-div[class^="col-"]{
-    border: 1px solid orange;
+.my_white-line{
+    height: .25rem;
+    width: 15%;
+    background-color: white;
+    border-radius: 25px;
+    margin: 0 2rem;
+}
+
+.my_black-line{
+    height: .25rem;
+    width: 15%;
+    background-color: black;
+    border-radius: 25px;
+    margin: 0 2rem;
+}
+
+.my_font-dark-green{
+    color: #1ABC9C;
+}
+
+
+            /* Bg-color */
+.my_bg-dark-grey{
+    background-color: #2C3E50;
+}
+
+.my_bg-dark-blue{
+    background-color: #3A546D;
+}
+
+.my_bg-dark-green{
+    background-color: #1ABC9C;
 }
