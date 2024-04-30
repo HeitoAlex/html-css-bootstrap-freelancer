@@ -17,7 +17,7 @@ body{
     width: 15%;
     background-color: white;
     border-radius: 25px;
-    margin: 0 2rem;
+    margin: 0 1rem;
 }
 
 .my_black-line{
@@ -25,11 +25,31 @@ body{
     width: 15%;
     background-color: black;
     border-radius: 25px;
-    margin: 0 2rem;
+    margin: 0 1rem;
 }
 
 .my_font-dark-green{
     color: #1ABC9C;
+}
+
+.my_button{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+}
+
+.my_contact{
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0 .5rem;
+    padding: 1rem;
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
