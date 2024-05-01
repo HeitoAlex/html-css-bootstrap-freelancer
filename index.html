@@ -163,11 +163,23 @@
                             <span class="my_black-line"></span>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col">
-                            <form action=""></form>
+                    <form class="row px-5">
+                        <div class="col-12">
+                            <input type="text" class="form-control border-0 border-bottom rounded-0 mb-2" id="name" name="name" placeholder="Name">
                         </div>
-                    </div>
+                        <div class="col-12">
+                            <input type="email" class="form-control border-0 border-bottom rounded-0 mb-2" id="email" pattern=".+@example\.com" size="30" placeholder="Email Address">
+                        </div>
+                        <div class="col-12">
+                            <input type="tel" class="form-control border-0 border-bottom rounded-0 mb-2" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone Number">
+                        </div>
+                        <div class="col-12">
+                            <textarea name="message" class="form-control border-0 border-bottom rounded-0 mb-2" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button class="my_button my_bg-dark-green" type="submit">Send</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
